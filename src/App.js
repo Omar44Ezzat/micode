@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import ReactPlayer from 'react-player'
+import ReactTable from "react-table";  
+
 function App() {
   return (
     <div className="App">
@@ -10,6 +12,25 @@ function App() {
         <p>
           Welcome to MiCode, we are here to learn coding.
         </p>
+        
+        <table >
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+        
         <a
           className="App-link"
           href="https://www.youtube.com/watch?v=R2pIutTspQA"
